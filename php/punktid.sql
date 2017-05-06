@@ -1,0 +1,1 @@
+ create table ttihhano_projekt_punktid (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, nimi varchar(60) not null, kommentaar varchar(255), hinne int(10) not null, kuupaev TIMESTAMP);
