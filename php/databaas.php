@@ -21,7 +21,3 @@
             }
     mysqli_close($l);
 ?>
-
-
-
-create table ttihhano_projekt_punktid_alg (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, nimi varchar(60) not null, punktid int(10), kuupaev TIMESTAMP);
