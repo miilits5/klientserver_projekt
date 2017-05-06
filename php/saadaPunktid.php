@@ -19,7 +19,7 @@ ini_set('display_errors', 1);
     mysqli_query($l, "SET CHARACTER SET UTF8") or
             die("Error, ei saa andmebaasi charsetti seatud");
 
-    $sql="INSERT INTO ttihhano_projekt_punktid (nimi, punktid, kuupaev) VALUES ('".$mn."', '".$p."' , '".$kp."')";
+    $sql="INSERT INTO ttihhano_projekt_punktid_alg (nimi, punktid, kuupaev) VALUES ('".$mn."', '".$p."' , '".$kp."')";
     echo $sql;
     $result = $l->query($sql);
     echo $result;
