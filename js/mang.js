@@ -45,15 +45,3 @@ function n2itaKomm() {
     document.getElementById("nupp3").style.visibility = "hidden";
     document.getElementById("kommentaarid").style.visibility = "visible";
 };
-
-function puhasta(algne) {
-  return algne.replace(/[|&;$%@"<>()+,]/g, "");
-}
-
-function madSafety($string)
-{
-    $string = stripslashes($string);
-    $string = strip_tags($string);
-    $string = mysql_real_escape_string($string);
-    return $string;
-}
