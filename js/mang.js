@@ -22,7 +22,7 @@ function startTimer() {
         delete element;
         document.getElementById("tekst").innerHTML = "Said punkte: " + punktid;
         document.getElementById("nupp2").style.visibility = "visible";
-    }, 2000);
+    }, 10000);
 };
 
 function clearContents(element) {
@@ -45,7 +45,3 @@ function n2itaKomm() {
     document.getElementById("nupp3").style.visibility = "hidden";
     document.getElementById("kommentaarid").style.visibility = "visible";
 };
-
-function puhasta(algne) {
-  return algne.replace(/[|&;$%@"<>()+,]/g, "");
-}
