@@ -19,7 +19,7 @@
     <button class="peidusNupp" id="nupp2" onclick="salvesta()">Salvesta punktid</button><br>
 
     <form action="../php/postKommentaar.php" id="kommentaariVorm" class="peidusVorm" method="POST" target="_self">
-      <p>Nimi: </p><input id="postnimi" name="nimi" type="text" onkeyup="this.value = this.value.replace(/[^a-z]/, '')" /></input><br><br><br>
+      <p>Nimi: </p><input id="postnimi" name="nimi" type="text" /></input><br><br><br>
       <p>Hinnang mängule: </p>
       <select name="hinne">
           <option value="1">1 - Igav</option>
