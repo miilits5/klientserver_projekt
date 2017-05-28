@@ -15,17 +15,14 @@ body {
 
 .peidusNupp {
   visibility: hidden;
-  vertical-align: middle;
 }
 
 .peidusVorm {
   visibility: hidden;
-  vertical-align: middle;
 }
 
 .komm {
   background-color: yellow;
-  vertical-align: middle;
 }
 html, body {
     height: 100%;
@@ -34,4 +31,7 @@ html, body {
 html {
     display: table;
     margin: auto;
+}
+textarea {
+   resize: none;
 }
