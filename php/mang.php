@@ -28,7 +28,7 @@
           <option value="4">4 - Päris hea</option>
           <option value="5">5 - Lemmik mäng</option>
       </select><br>
-      <textarea name="kommentaar" rows="4" cols="50" maxlength="254" onfocus="clearContents(this);" onkeyup="this.value = this.value.replace(/[^a-z]/, '')" >Kommentaar</textarea><br>
+      <textarea name="kommentaar" rows="4" cols="50" maxlength="254" onfocus="clearContents(this)">Kommentaar</textarea><br>
       <button id="nupp3" onclick="salvestaKomm()">Salvesta kommentaar</button>
 
     </form>
