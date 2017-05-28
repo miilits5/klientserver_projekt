@@ -22,7 +22,7 @@ function startTimer() {
         delete element;
         document.getElementById("tekst").innerHTML = "Said punkte: " + punktid;
         document.getElementById("nupp2").style.visibility = "visible";
-    }, 3000);
+    }, 10000);
 };
 
 function clearContents(element) {
