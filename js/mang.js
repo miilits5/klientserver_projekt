@@ -49,3 +49,11 @@ function n2itaKomm() {
 function puhasta(algne) {
   return algne.replace(/[|&;$%@"<>()+,]/g, "");
 }
+
+function madSafety($string)
+{
+    $string = stripslashes($string);
+    $string = strip_tags($string);
+    $string = mysql_real_escape_string($string);
+    return $string;
+}
