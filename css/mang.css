@@ -9,6 +9,8 @@ body {
     font-family:  "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+	display: table-cell;
+    vertical-align: middle;
 }
 
 .peidusNupp {
@@ -21,4 +23,12 @@ body {
 
 .komm {
   background-color: yellow;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
 }
