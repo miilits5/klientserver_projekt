@@ -48,4 +48,10 @@ function n2itaKomm() {
 
 function puhasta(algne) {
   return algne.replace(/[|&;$%@"<>()+,]/g, "");
-}
+};
+
+function textFromHtmlString( arbitraryHtmlString ) {
+    const temp = document.createElement('div');
+    temp.innerHTML = arbitraryHtmlString;
+    return temp.innerText;
+};
