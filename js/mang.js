@@ -45,3 +45,7 @@ function n2itaKomm() {
     document.getElementById("nupp3").style.visibility = "hidden";
     document.getElementById("kommentaarid").style.visibility = "visible";
 };
+
+function puhasta(algne) {
+  return algne.replace(/[|&;$%@"<>()+,]/g, "");
+}
