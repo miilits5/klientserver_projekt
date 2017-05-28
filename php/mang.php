@@ -11,13 +11,14 @@
 </head>
 
 <body>
+<div class="wrapper">
     <p id="tekst">Vajuta nuppu 10 sekundi jooksul võimalikult palju. </p>
     <script src="../js/mang.js"></script>
-	<div class="wrapper">
+
     <button id="nupp0" onclick="startTimer()">Alusta Mängu</button><br>
     <button class="peidusNupp" id="nupp" onclick="lisaPunkt()">Lisa 1 punkt</button><br>
     <button class="peidusNupp" id="nupp2" onclick="salvesta()">Salvesta punktid</button><br>
-	</div>
+	
     <form action="../php/postKommentaar.php" id="kommentaariVorm" class="peidusVorm" method="POST" target="_self">
       <p>Nimi: </p><input id="postnimi" name="nimi" type="text" readonly /></input><br><br><br>
       <p>Hinnang mängule: </p>
@@ -32,7 +33,7 @@
       <button id="nupp3" onclick="salvestaKomm()">Salvesta kommentaar</button>
 
     </form>
-
+</div>
 </body>
 
 </html>
